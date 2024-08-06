@@ -1,4 +1,17 @@
 name: jenkinstest
 recipe: drupal10
+xdebug: true
 config:
   webroot: web
+
+tooling:
+  phpcs:
+      service: appserver
+      cmd: "/app/vendor/bin/phpcs --standard=Drupal,DrupalPractice --extensions=php,install,module,theme"
+      options:
+      description: 'Run phpcs for given folder or file.'
+  phpcbf:
+      service: appserver
+      cmd: "/app/vendor/bin/phpcbf --standard=Drupal,DrupalPractice --extensions=php,install,module,theme"
+      options:
+      description: 'Fixes the coding standards as much it can.'
