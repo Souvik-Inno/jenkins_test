@@ -1,0 +1,6 @@
+# File: modules/custom/example_module/example_module.info.yml
+name: 'Example Module'
+type: module
+description: 'A simple example module for demonstration purposes.'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
