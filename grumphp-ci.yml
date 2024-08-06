@@ -1,8 +1,8 @@
 grumphp:
   process_timeout: 120
-  # ascii:
-  #   failed: vendor/innoraft/drupal-quality-checker/resources/ascii/sad.txt
-  #   succeeded: vendor/innoraft/drupal-quality-checker/resources/ascii/happy.txt
+  ascii:
+    failed: vendor/innoraft/drupal-quality-checker/resources/ascii/sad.txt
+    succeeded: vendor/innoraft/drupal-quality-checker/resources/ascii/happy.txt
   tasks:
     yamllint: ~
     composer: ~
