@@ -19,9 +19,7 @@
         "drupal/core-composer-scaffold": "^10.3",
         "drupal/core-project-message": "^10.3",
         "drupal/core-recommended": "^10.3",
-        "drush/drush": "^12.5"
-    },
-    "require-dev": {
+        "drush/drush": "^12.5",
         "drupal/coder": "^8.3",
         "innoraft/drupal-quality-checker": "^2.0",
         "phpro/grumphp": "^1.0",
