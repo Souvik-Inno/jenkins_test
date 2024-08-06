@@ -1,0 +1,18 @@
+grumphp:
+  process_timeout: 120
+  # ascii:
+  #   failed: vendor/innoraft/drupal-quality-checker/resources/ascii/sad.txt
+  #   succeeded: vendor/innoraft/drupal-quality-checker/resources/ascii/happy.txt
+  tasks:
+    yamllint: ~
+    composer: ~
+    composer_normalize:
+      indent_size: ~
+      indent_style: ~
+      verbose: false
+    # eslint:
+    #   bin: "web/themes/custom/hcltech/node_modules/.bin/eslint"
+    #   config: "web/themes/custom/hcltech/.eslintrc.json"
+    # stylelint:
+    #   bin: "web/themes/custom/hcltech/node_modules/.bin/stylelint"
+    #   config: "web/themes/custom/hcltech/.stylelintrc.json"
