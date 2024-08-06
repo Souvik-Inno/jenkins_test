@@ -1,3 +1,19 @@
 <?php
 
-echo "hell"
+
+/**
+ * @file
+ * Contains functions and hooks for the Example Module.
+ */
+
+/**
+ * Implements hook_help().
+ *
+ * Provides help information for the module.
+ */
+function example_module_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.example_module':
+      return '<p>' . t('This is the help text for the Example Module.') . '</p>';
+  }
+}
