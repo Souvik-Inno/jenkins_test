@@ -21,6 +21,13 @@
         "drupal/core-recommended": "^10.3",
         "drush/drush": "^12.5"
     },
+    "require-dev": {
+        "drupal/coder": "^8.3",
+        "innoraft/drupal-quality-checker": "^2.0",
+        "phpro/grumphp": "^1.0",
+        "slevomat/coding-standard": "^8.15",
+        "squizlabs/php_codesniffer": "3.*"
+    },
     "conflict": {
         "drupal/drupal": "*"
     },
@@ -33,7 +40,9 @@
             "drupal/core-project-message": true,
             "phpstan/extension-installer": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "phpro/grumphp": true,
+            "ergebnis/composer-normalize": true
         },
         "sort-packages": true
     },
